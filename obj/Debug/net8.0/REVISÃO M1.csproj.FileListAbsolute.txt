@@ -12,3 +12,4 @@ C:\Users\476849624\Documents\Gabriel Cavalheiro\REVISÃO M1\obj\Debug\net8.0\ref
 C:\Users\476849624\Documents\Gabriel Cavalheiro\REVISÃO M1\obj\Debug\net8.0\REVISÃO M1.pdb
 C:\Users\476849624\Documents\Gabriel Cavalheiro\REVISÃO M1\obj\Debug\net8.0\REVISÃO M1.genruntimeconfig.cache
 C:\Users\476849624\Documents\Gabriel Cavalheiro\REVISÃO M1\obj\Debug\net8.0\ref\REVISÃO M1.dll
+C:\Users\476849624\Documents\Gabriel Cavalheiro\REVISÃO M1\obj\Debug\net8.0\REVISÃO M1.sourcelink.json

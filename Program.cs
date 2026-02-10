@@ -369,3 +369,135 @@ for (int i = 1; i <= quantidade; i++)
 }
 Console.WriteLine($"Você digitou {pares} par(es) e {impares} ímpar(es)");
 */
+
+
+/*
+Console.Write("Digite um número: ");
+int numero = int.Parse(Console.ReadLine());
+
+if (numero <= 1)
+{
+    Console.WriteLine($"{numero} não é primo.");
+}
+else if (numero == 2)
+{
+    Console.WriteLine($"{numero} é primo.");
+}
+else
+{
+    int divisores = 0;
+
+    for (int i = 2; i * i <= numero; i++)
+    {
+        if (numero % i == 0)
+        {
+            divisores++;
+            break;
+        }
+    }
+
+    if (divisores == 0)
+    {
+        Console.WriteLine($"{numero} é primo.");
+    }
+    else
+    {
+        Console.WriteLine($"{numero} não é primo.");
+    }
+}
+*/
+
+
+/*
+Console.WriteLine("Digite um número: ");
+int numero = int.Parse(Console.ReadLine());
+
+int fatorial = 1;
+
+for (int i = 1; i <= numero; i++)
+{
+    fatorial = fatorial * i;
+}
+
+Console.WriteLine($"Fatorial de {numero} é {fatorial}");
+*/
+
+
+/*
+int tentativas = 0;
+
+while (tentativas <= 3)
+{
+    tentativas++;
+
+    Console.Write("Digite o usuário: ");
+    string usuario = Console.ReadLine();
+
+    Console.Write("Digite a senha: ");
+    string senha = Console.ReadLine();
+
+    if (usuario == "admin" && senha == "1234")
+    {
+        Console.WriteLine("Logado.");
+        break;
+    }
+    else
+    {
+        if (tentativas <= 3)
+        {
+            Console.WriteLine("Tente novamente.");
+        }
+        else
+        {
+            Console.WriteLine("Bloqueado.");
+        }
+    }
+}
+*/
+
+
+/*
+int saldo = 500;
+string resposta = "sim";
+
+while (resposta == "sim")
+{
+    Console.Write("Deseja acessar seu saldo? ");
+    resposta = Console.ReadLine();
+
+    if (resposta != "sim")
+    {
+        break;
+    }
+
+    Console.Write($"Saldo: {saldo}R$\nQuanto deseja sacar? ");
+    int saque = int.Parse(Console.ReadLine());
+
+    if (saque <= saldo)
+    {
+        saldo = saldo - saque;
+    }
+    else
+    {
+        Console.WriteLine("Erro.");
+    }
+}
+*/
+
+
+
+int numero = 1;
+int maior = int.MinValue;
+
+while (numero != 0)
+{
+    Console.Write("Digite um número (0 p/ parar): ");
+    numero = int.Parse(Console.ReadLine());
+
+    if (numero > maior)
+    {
+        maior = numero;
+    }
+}
+
+Console.WriteLine($"Maior número digitado: {maior}");
